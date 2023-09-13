@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.bg-container {
+  background-color: #f4faff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #171f46;
+  font-weight: bold;
+}
+.para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}
+.lists-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 70%;
+}
+@media screen and (max-width: 576px) {
+  .lists-container {
+    width: 100%;
+  }
+}
